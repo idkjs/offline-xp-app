@@ -1,0 +1,12 @@
+####{BSB GENERATED: NO EDIT
+B lib/bs
+FLG -open OfflineXpApp
+FLG -ppx '/Users/mandalarian/node_modules/bs-platform/darwin/bsc.exe -as-ppx '
+S /Users/mandalarian/node_modules/bs-platform/lib/ocaml
+B /Users/mandalarian/node_modules/bs-platform/lib/ocaml
+FLG -w +a-4-9-40-41-42-50-61-102
+S src
+B lib/bs/src
+S src/models
+B lib/bs/src/models
+####BSB GENERATED: NO EDIT}

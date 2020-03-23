@@ -6,6 +6,7 @@
         "ios": "expo start --ios",
         "web": "expo start --web",
         "eject": "expo eject",
+        "watch": "bsb -clean-world -make-world -w",
         "amplify-modelgen": "node amplify/scripts/amplify-modelgen.js",
         "amplify-push": "node amplify/scripts/amplify-push.js"
     },
@@ -22,6 +23,7 @@
     "devDependencies": {
         "@babel/core": "^7.0.0",
         "babel-preset-expo": "~8.0.0",
+        "gentype": "^3.16.0",
         "ini": "^1.3.5",
         "inquirer": "^6.5.1"
     },
