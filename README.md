@@ -1,4 +1,8 @@
-# https://egghead.io/lessons/javascript-building-offline-first-cross-platform-apps-with-expo-and-amplify-datastore
+# Egghead.io/Amplify Datastore
+
+## https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-amplify-datastore/
+
+## https://egghead.io/lessons/javascript-building-offline-first-cross-platform-apps-with-expo-and-amplify-datastore
 
 ## Steps
 
@@ -48,3 +52,22 @@ amplify-build-config.json node_modules              yarn.lock
 app.json                  package-lock.json
 ~/G/offline-xp-app ❯❯❯ 
 ```
+
+Deploy the API run `amplify push`.
+
+When asked `Do you want to generate code for your newly created GraphQL API (Y/n)` answer no because we are going to use the `datastore` api.
+
+```sh
+# `amplify push` output
+✔ All resources are updated in the cloud
+
+GraphQL endpoint: https://5fpqhndw5zfitil572brwq7o6y.appsync-api.us-east-1.amazonaws.com/graphql
+GraphQL API KEY: da2-gbcxu47jwjggxns53ne442rna4
+
+~/G/offline-xp-app ❯❯❯
+```
+
+## Using the API in the App
+
+See gist: <https://gist.github.com/dabit3/184e875c151335c00336396c99f9ef06>
+
